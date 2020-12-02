@@ -1,0 +1,578 @@
+@charset "UTF-8";
+/* line 1, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 5, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+nav {
+  background: url(../img/Rectangle_16.png) center center/cover no-repeat;
+}
+
+/* line 8, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 19, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 22, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 27, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.menu_link {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 68px;
+  text-align: left;
+}
+
+/* line 38, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.subber {
+  height: 84px;
+  background-color: #000000;
+  opacity: 0.6;
+  margin-top: 0px;
+}
+
+/* line 44, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.subber_uber {
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "Roboto - Thin";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 68px;
+  text-align: left;
+  /* Text style for "О, фициаль" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+/* line 60, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.subber_Offical {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 14px;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* line 80, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.subber_tel {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 68px;
+  text-align: center;
+}
+
+/* line 90, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.subber_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  border-radius: 9px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  @includebtn_hover;
+  outline: none;
+}
+
+/* line 109, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.justfank {
+  min-height: 800px;
+  margin: 0px;
+  margin-top: 128px;
+  background: url("../img/sectionback.png") center center/cover no-repeat;
+  padding: 67px 0 316px 0;
+}
+
+/* line 116, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+h1, h2 {
+  height: 97px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+/* line 127, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.justfank_descr {
+  height: 161px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* line 137, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.justfank_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  -webkit-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  @includebtn_hover;
+}
+
+/* line 150, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.dz {
+  padding: 71px;
+}
+
+/* line 153, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.labe1 {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 164, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.dz_headertext {
+  margin-top: 41px;
+  color: #222222;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 176, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.dz .dz_block {
+  display: -webkit-box;
+  display: -ms-flexbo;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin-top: 35px;
+}
+
+/* line 191, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.dz_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 206, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.dz_descr {
+  width: 343px;
+}
+
+/* line 209, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web {
+  min-height: 864px;
+  background: url("../img/Rectangle_20.png") center center/cover no-repeat;
+}
+
+/* line 212, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .row {
+  margin-top: 32px;
+}
+
+/* line 214, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 221, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_1 {
+  background: url("../img/photo1.png") center center/cover no-repeat;
+}
+
+/* line 223, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_2 {
+  background: url("../img/photo2.png") center center/cover no-repeat;
+}
+
+/* line 225, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_3 {
+  background: url("../img/photo3.png") center center/cover no-repeat;
+}
+
+/* line 227, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_4 {
+  background: url("../img/photo4.png") center center/cover no-repeat;
+}
+
+/* line 229, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_5 {
+  background: url("../img/photo5.png") center center/cover no-repeat;
+}
+
+/* line 231, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_6 {
+  background: url("../img/photo6.png") center center/cover no-repeat;
+}
+
+/* line 233, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 238, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_plus {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+/* line 248, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_plus::before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: blue;
+}
+
+/* line 254, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_plus::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 14px;
+  width: 2px;
+  background-color: blue;
+}
+
+/* line 263, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.web .mobile_item_plus:hover::before, .web .mobile_item_plus:hover::after {
+  background-color: red;
+  transition: 0.3s all;
+}
+
+/* line 268, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.uber {
+  min-height: 900px;
+  background: url("../img/uber-x.jpg") center center/cover no-repeat;
+  position: relative;
+  padding-top: 65px;
+}
+
+/* line 273, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.uber_title {
+  position: absolute;
+  top: 113px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 278, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.uber_subtitle {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 159px;
+}
+
+/* line 291, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.uber_last {
+  position: absolute;
+  bottom: 138px;
+  color: #222222;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 306, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 308, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 310, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require_block_nbm {
+  margin-bottom: 0px;
+}
+
+/* line 312, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require_title {
+  color: #1ca8c3;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* line 316, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require_list {
+  padding-left: 50px;
+  list-style-type: none;
+  margin-top: 22px;
+}
+
+/* line 320, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+/* line 326, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require_list li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -31px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/fl.png") center center/cover no-repeat;
+}
+
+/* line 335, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require_descr {
+  margin-top: 25px;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1ca8c3;
+}
+
+/* line 342, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require .warning .require_title {
+  color: red;
+}
+
+/* line 346, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.require .warning .require_list li::before {
+  background: url("../img/qweryt.png") center center/cover no-repeat;
+}
+
+/* line 353, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.engin {
+  height: 800px;
+  background: url("../img/lavik.jpg") center center/cover no-repeat;
+  padding: 57px;
+  position: relative;
+}
+
+/* line 358, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.engin .YAMAKASI {
+  width: 76px;
+  height: 24px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding-left: 6px;
+}
+
+/* line 364, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.engin .YAMAKASI_TITLE {
+  margin-top: 32px;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 48px;
+  text-align: center;
+}
+
+/* line 378, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.engin .YAMAKASI_SUBTITLE {
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 80px;
+}
+
+/* line 384, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.engin .yamakasi_link {
+  color: #1fbad6;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 396, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.footer {
+  position: relative;
+}
+
+/* line 398, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+  display: absolute;
+  bottom: 30px;
+  padding-top: 33px;
+}
+
+/* line 406, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* line 410, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.footer_wrapper_wrapper > div {
+  width: 33%;
+}
+
+/* line 412, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.footer_wrapper_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 415, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.footer_social {
+  display: flex;
+  justify-content: space-between;
+  width: 156p;
+}
+
+/* line 419, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.footer_social_item {
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* line 429, ../../../../../OneDrive/Рабочий стол/Новая папка/project5/sass/_general.sass */
+.footer_links_main {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */

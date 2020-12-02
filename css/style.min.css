@@ -1,0 +1,213 @@
+header {
+  position: relative;
+  height: 50px;
+}
+nav {
+  background: url(../img/Rectangle_16.png) center center/cover no-repeat;
+}
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+.menu_link {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 68px;
+  text-align: left;
+}
+.subber {
+  height: 84px;
+  background-color: #000000;
+  opacity: 0.6;
+  margin-top: 0px;
+}
+.subber_uber {
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "Roboto - Thin";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 68px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.subber_Offical {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 14px;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.subber_tel {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 68px;
+  text-align: center;
+}
+.subber_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#1eacc7),
+    to(#4ce2ff)
+  );
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  border-radius: 9px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.justfank {
+  min-height: 800px;
+  margin: 0px;
+  margin-top: 128px;
+  background: url("../img/sectionback.png") center center/cover no-repeat;
+  padding: 67px 0 316px 0;
+}
+h1,
+h2 {
+  height: 97px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+.justfank_descr {
+  height: 161px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+}
+.justfank_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  -webkit-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#1eacc7),
+    to(#4ce2ff)
+  );
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+}
+.dz {
+  padding: 71px;
+}
+.labe1 {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.dz_headertext {
+  color: #222222;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.dz .dz_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin-top: 35px;
+}
+.dz_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+.dz_descr {
+  width: 343px;
+}
+.web {
+  min-height: 864px;
+  background: url("../img/Rectangle_20.png") center center/cover no-repeat;
+}
+.web .mobile_item {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.min.css.map */
